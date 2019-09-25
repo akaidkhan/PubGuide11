@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PubGuide1.1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="erangle">Erangel is the very first map on PUBG, and it is
+        where most PUBG players started their exciting journey in this game.
+        The countryside town atmosphere of Erangel is perfect for intense
+        gameplay, providing a balance of fiery gunfire and opportunities for stealth.</string>
+
+
+    <string name="miramar">Miramar is a desert map in Player Unknowns’s
+        Battlegrounds (PUBG) that features urban surroundings based in
+        Mexico. Its terrain offers many opportunities for interesting
+        gameplay because it can be used more for ambushing, sniping and
+        long-range shooting. But with Miramar’s long stretches of desert
+        and densely populated cities, the tactics typically used in Erangel
+        , Vikendi and Sanhok may not work and new strategies are required.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

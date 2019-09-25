@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Weapons"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Weapons" />
+        <item
+            android:id="@+id/nav_Ammo_types"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ammo_types" />
+        <item
+            android:id="@+id/nav_Attachments"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Attachments" />
+        <item
+            android:id="@+id/Throwables"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Throables" />
+        <item
+            android:id="@+id/Health_Items"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Health_Items" />
+        <item
+            android:id="@+id/Maps"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Maps" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
