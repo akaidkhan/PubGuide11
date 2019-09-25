@@ -6,11 +6,11 @@ package com.techneo360.pubguide11;
 
 public class Book {
 
+
     private String Title;
     private String Category ;
     private String Description ;
     private int Thumbnail ;
-
     public Book() {
     }
 
@@ -19,6 +19,7 @@ public class Book {
         Category = category;
         Description = description;
         Thumbnail = thumbnail;
+
     }
 
 
@@ -39,6 +40,7 @@ public class Book {
     }
 
 
+
     public void setTitle(String title) {
         Title = title;
     }
@@ -54,4 +56,5 @@ public class Book {
     public void setThumbnail(int thumbnail) {
         Thumbnail = thumbnail;
     }
+
 }

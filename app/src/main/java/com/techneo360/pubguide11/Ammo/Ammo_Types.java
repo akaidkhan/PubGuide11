@@ -1,6 +1,7 @@
 package com.techneo360.pubguide11.Ammo;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
@@ -41,13 +42,11 @@ public class Ammo_Types extends Fragment {
 
 
         lstBook = new ArrayList<>();
-        lstBook.add(new Book(" 12Guage","Categorie : AMMO",  "Damage:" +"\n"+
-                 "=>The per shot damage without any multipliers applied."+"\n"+"Magazine Capacity"+"\n"
-                +"The amount of Ammo you can fit into your gun at one time.",R.drawable.guage));
-        lstBook.add(new Book("The 45-acp","Categorie AMMO","Description AMMO",R.drawable.acp));
-        lstBook.add(new Book("The 9mm","Categorie AMMO","Description AMMO",R.drawable.mm));
-        lstBook.add(new Book("The 7.62","Categorie AMMO","Description AMMO",R.drawable.seven));
-        lstBook.add(new Book("The 5.56","Categorie AMMO","Description AMMO",R.drawable.five));
+        lstBook.add(new Book("12 Guage","Categorie : AMMO","Weight:-"+"\t"+"1.25",R.drawable.guage));
+        lstBook.add(new Book(".45 ACP","AMMO","Weight:-"+"\t"+"0.4",R.drawable.acp));
+        lstBook.add(new Book("9mm","AMMO","Weight:-"+"\t"+"0.38",R.drawable.mm));
+        lstBook.add(new Book("7.62mm","AMMO","Weight:-"+"\t"+"0.7",R.drawable.seven));
+        lstBook.add(new Book("5.56mm","AMMO","Weight:-"+"\t"+"0.5",R.drawable.five));
 
         RecyclerView myrv = (RecyclerView) v.findViewById(R.id.recyclerview_id);
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(getContext(),lstBook);

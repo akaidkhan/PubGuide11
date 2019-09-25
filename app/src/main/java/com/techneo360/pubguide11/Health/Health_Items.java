@@ -41,11 +41,11 @@ public class Health_Items extends Fragment {
 
 
         lstBook = new ArrayList<>();
-        lstBook.add(new Book("The 12Guage","Categorie AMMO","Description AMMO",R.drawable.painkiller));
-        lstBook.add(new Book("The 45-acp","Categorie AMMO","Description AMMO",R.drawable.energy));
-        lstBook.add(new Book("The 9mm","Categorie AMMO","Description AMMO",R.drawable.syringe));
-        lstBook.add(new Book("The 7.62","Categorie AMMO","Description AMMO",R.drawable.medkit));
-        lstBook.add(new Book("The 5.56","Categorie AMMO","Description AMMO",R.drawable.firstaid));
+        lstBook.add(new Book("Energy Drink","Categorie AMMO","*Increases a player's boost by 40 instantly. Performing certain actions while using this item will cancel it"+"\n"+"\n"+"*Boosted players can run faster and fully heal over time",R.drawable.energy));
+        lstBook.add(new Book("Painkiller","Categorie AMMO","*Increases a player's boost by 60 instantly"+"\n"+"\n"+"*Performing certain actions while using this item will cancel it. Boosted players can run faster and fully heal over time",R.drawable.painkiller));
+        lstBook.add(new Book("Adrenaline Syringe","Categorie AMMO","*Increases a player's boost by 100 instantly"+"\n"+"\n"+"*Performing certain actions while using this item will cancel it"+"\n"+"\n"+"*Boosted players can run faster and fully heal over time",R.drawable.syringe));
+        lstBook.add(new Book("Med Kit","Categorie AMMO","*Heals a player's health to 100 instantly."+"\n"+"\n"+"*Performing certain actions while using this item will cancel it",R.drawable.medkit));
+        lstBook.add(new Book("First Aid Kit","Categorie AMMO","*Heals a player's health to 75 instantly"+"\n"+"\n"+"*Performing certain actions while using this item will cancel it"+"\n"+"\n"+"*This item cannot be used when a player's health is over 75",R.drawable.firstaid));
 
         RecyclerView myrv = (RecyclerView) v.findViewById(R.id.recyclerview_id);
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(getContext(),lstBook);

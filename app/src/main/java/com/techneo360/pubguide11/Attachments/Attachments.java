@@ -39,11 +39,11 @@ public class Attachments extends Fragment {
 
 
         lstBook = new ArrayList<>();
-        lstBook.add(new Book("The 12Guage","Categorie AMMO","Description AMMO",R.drawable.twox));
-        lstBook.add(new Book("The 45-acp","Categorie AMMO","Description AMMO",R.drawable.threex));
-        lstBook.add(new Book("The 9mm","Categorie AMMO","Description AMMO",R.drawable.fourx));
-        lstBook.add(new Book("The 7.62","Categorie AMMO","Description AMMO",R.drawable.sixx));
-        lstBook.add(new Book("The 5.56","Categorie AMMO","Description AMMO",R.drawable.eightx));
+        lstBook.add(new Book("2x Aimpoint Scope","Scope","+10.00% Faster ADS"+"\n"+"\n"+"1.80X Magnification",R.drawable.twox));
+        lstBook.add(new Book("3X","Scope",""+"\n"+"\n"+"",R.drawable.threex));
+        lstBook.add(new Book("4x ACOG Scope","Scope","4.00X Magnification"+"\n"+"\n"+"",R.drawable.fourx));
+        lstBook.add(new Book("The 7.62","Scope",""+"\n"+"\n"+"",R.drawable.sixx));
+        lstBook.add(new Book("8x CQBSS Scope","Scope","7.25X Magnification"+"\n"+"\n"+"",R.drawable.eightx));
 
         RecyclerView myrv = (RecyclerView) v.findViewById(R.id.recyclerview_id);
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(getContext(),lstBook);
