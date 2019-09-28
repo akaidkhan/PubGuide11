@@ -6,27 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_Weapons"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_gun"
             android:title="Weapons" />
         <item
             android:id="@+id/nav_Ammo_types"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_bulet"
             android:title="Ammo_types" />
         <item
             android:id="@+id/nav_Attachments"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_scope"
             android:title="Attachments" />
         <item
             android:id="@+id/Throwables"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_granade"
             android:title="Throables" />
         <item
             android:id="@+id/Health_Items"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_heart"
             android:title="Health_Items" />
         <item
             android:id="@+id/Maps"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_icons8_gps"
             android:title="Maps" />
     </group>
 
