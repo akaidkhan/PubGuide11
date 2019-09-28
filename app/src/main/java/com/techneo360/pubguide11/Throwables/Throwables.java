@@ -41,6 +41,8 @@ public class Throwables extends Fragment {
 
 
         lstBook = new ArrayList<>();
+
+        lstBook.add(new Book("Apple","Grenade","-------------------------------------------------------------------------\n\nTemporarily removes attlefield Vision allowing for sneaky reposition"+"\n"+"\n"+"Or just a good ole plain escape.",R.drawable.apple));
         lstBook.add(new Book("Smoke Grenade","Grenade","-------------------------------------------------------------------------\n\nTemporarily removes attlefield Vision allowing for sneaky reposition"+"\n"+"\n"+"Or just a good ole plain escape.",R.drawable.smoke));
         lstBook.add(new Book("Frag Grenade","Grenade","-------------------------------------------------------------------------\n\nExplosive charge to fragment the outer shell of the grenade in a shaped or radial pattern."+"\n"+"\n"+"",R.drawable.grenade));
         lstBook.add(new Book("Molotov Cocktail","Grenade","-------------------------------------------------------------------------\n\nThis best use for Molotov is an AOE Denial, for example, using the fire from the Molotov on a stair case making it difficult for the enemy to cross the choke point from the burning AOE Damage."+"\n"+"\n"+"",R.drawable.firegranade));

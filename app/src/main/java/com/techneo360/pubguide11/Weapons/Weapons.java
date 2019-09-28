@@ -41,6 +41,13 @@ public class Weapons extends Fragment {
 
 
         lstBook = new ArrayList<>();
+
+
+
+
+
+
+
         lstBook.add(new Book("Akm","Assult",
                 "-------------------------------------------------------------------------\n\nType of Ammo: 7.62\n\n" +
                         "Size of Magazine: 30 (40 with Extended Mag)\n\n" +
@@ -62,7 +69,7 @@ public class Weapons extends Fragment {
                 "Fire Rate: 0.086s\n\n"+
                 "Reload Time: 3.67s\n\n" +
                 "-------------------------------------------------------------------------\n\n"+
-                "This is an exclusive air rifle that represents a real beauty. The Aug packs a punch and is very easy to handle compared to a weapon like the AKM. The only downside is that reloading takes a lot of time compared to some of his contemporaries. All in all, a powerful and forgiving rifle that feels great - especially when equipped with a silencer." ,R.drawable.augnew));
+                "This is an exclusive air rifle that represents a real beauty. The Aug packs a punch and is very easy to handle compared to a weapon like the AKM. The only downside is that reloading takes a lot of time compared to some of his contemporaries. All in all, a powerful and forgiving rifle that feels great - especially when equipped with a silencer." ,R.drawable.aug));
 
 
 
@@ -473,6 +480,94 @@ public class Weapons extends Fragment {
                 "Reload Time: 2.2s\n\n" +
                 "-------------------------------------------------------------------------\n\n"+
                 "The Vector has finally got a buff on its magazine size with Update No. 27, which has raised him a bit compared to the measly 13/25 of the past. Now it fires 9mm cartridges instead of 0.45 and has the second lowest base damage of all SMGs, but the highest rate of fire and a very low recoil. This makes it a tricky weapon with a maximum of skills that can release some excellent damage in the right hands in the short to medium term. Just make sure you're not surprised if your magazine is empty about a second after it's started.",R.drawable.vector));
+
+
+
+
+
+        lstBook.add(new Book("Cowbar","","\n\n-------------------------------------------------------------------------\n\n"+"Hit Range Leeway:-" +
+                "3,000\n" +
+                "Pickup Delay:-" +
+                "150 ms\n" +
+                "Ready Delay:-" +
+                "500 ms\n" +
+                "Capacity:-" +
+                "120\n" +
+                "Type:-" +
+                "Melee"+"\n\n-------------------------------------------------------------------------\n\n"+"Commonly used to pry objects apart, pull out nails, or swing at an assailant. It does a fair amount of damage, but the slow swing speed and overall poor melee mechanics as a whole make this weapon a last resort when all else has failed.",R.drawable.cowbar));
+        lstBook.add(new Book("Machete","","\n\n-------------------------------------------------------------------------\n\n"+"Hit Range Leeway:-" +
+                "3,000\n" +
+                "Pickup Delay:-" +
+                "150 ms\n" +
+                "Ready Delay:-" +
+                "500 ms\n" +
+                "Capacity:-" +
+                "120\n" +
+                "Type:-" +
+                "Melee"+"\n\n-------------------------------------------------------------------------\n\n"+"The tapanga machete is a long and sharp metal object with a wooden handle used in game as a melee weapon that is exclusively useful against unarmed and unarmored opponents, as it is capable of taking a person without armor down in one hit.",R.drawable.machete));
+        lstBook.add(new Book("Pan","","\n\n-------------------------------------------------------------------------\n\n"+"Hit Range Leeway:-" +
+                "3,000\n" +
+                "Pickup Delay:-" +
+                "150 ms\n" +
+                "Ready Delay:-" +
+                "500 ms\n" +
+                "Capacity:-" +
+                "120\n" +
+                "Type:-" +
+                "Melee"+"\n\n-------------------------------------------------------------------------\n\n"+"A cast-iron pan purposely built for cooking up hate for your enemies.\n" +
+                "\n" +
+                "In the game, the pan is capable of killing an unarmored opponent in two hits on the body or one hit to the head. The pan will also block bullets fired at players while equipped and while unequipped, allowing it to act as a small shield. It blocks shots from all ranged weapons in the game, including shotguns and the AWM. For these reasons, it is regarded as the best melee weapon in the game.",R.drawable.pan));
+        lstBook.add(new Book("Sickle","","\n\n-------------------------------------------------------------------------\n\n"+"Hit Range Leeway:-" +
+                "3,000\n" +
+                "Pickup Delay:-" +
+                "150 ms\n" +
+                "Ready Delay:-" +
+                "500 ms\n" +
+                "Capacity:-" +
+                "120\n" +
+                "Type:-" +
+                "Melee"+"\n\n-------------------------------------------------------------------------\n\n"+"A sickle is a melee weapon consisting of a long wooden rod with a sharp metal part on it. The weapon is highly effective against unarmed opponents and is relatively easy to find",R.drawable.sickle));
+        lstBook.add(new Book("Crossbow","","\n\n-------------------------------------------------------------------------\n\n"+"Hit Damage:-" +
+                "105\n" +
+                "Initial Bullet Speed:-" +
+                "160 m/s\n" +
+                "Body Hit Impact Power:-" +
+                "8,000\n" +
+                "Zero Range:-" +
+                "25\n" +
+                "Time Between Shots:-" +
+                "0.075s\n" +
+                "Firing Modes:-" +
+                "Single\n" +
+                "Method:-" +
+                "One by One\n" +
+                "Duration (Full):-" +
+                "3.549655s\n" +
+                "Duration (Tactical):-" +
+                "3.549655s"+"\n\n-------------------------------------------------------------------------\n\n"+"The crossbow is a short to medium ranged weapon. It does very high damage, with a shot to the torso capable of killing an unarmored enemy in one shot and headshots being instant kills, even through Spetsnaz helmets. It is also completely silent, allowing for stealthy kills.\n" +
+                "\n" +
+                "It suffers from heavy drop, thus, medium to long range shots need to be aimed relatively high to hit a player, however it does come with a reflex sight with a unique reticle that can be used as a rangefinder, with markings for 50, 100, and 200 meter targets. Its reload time is also painfully slow and while the quiver can reduce this time, it necessitates the need for an opportunistic play style when using this weapon. Being completely silent however, this can be a viable weapon when there are only a few players left, especially in foggy weather.",R.drawable.crossbow));
+        lstBook.add(new Book("Flare Gun","","\n\n-------------------------------------------------------------------------\n\n"+"Time Between Shots:-" +
+                "3.5s\n" +
+                "Firing Modes:-" +
+                "Single\n" +
+                "Method:-" +
+                "One by one\n" +
+                "Duration (Full):-" +
+                "3.5s\n" +
+                "Duration (Tactical):-" +
+                "3.5s\n" +
+                "Rarity:-" +
+                "Rare"+"\n\n-------------------------------------------------------------------------\n\n"+"The Flare gun is an extremely rare weapon that when fired, calls in a custom air drop that drops a larger amount of highly valuable equipment compared to the ordinary air drop. Once a flare is fired straight up into the air and reaches an altitude of 200 meters, a plane will soon fly over the map and drop off either a crate if the player is inside the safe zone, or a BRDM-2 if outside. Firing a flare at a player causes no damage ",R.drawable.weaponflare_gun));
+
+
+
+
+
+
+
+
+
 
 
 
