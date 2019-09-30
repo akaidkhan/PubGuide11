@@ -7,7 +7,7 @@
     android:background="#DACACA"
     tools:context=".Ammo.Ammo_details">
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
@@ -22,26 +22,27 @@
             <ImageView
                 android:id="@+id/bookthumbnail"
                 android:layout_width="125dp"
-                android:layout_height="170dp"
-                android:scaleType="centerCrop" />
+                android:layout_height="170dp" />
+<!--                android:scaleType="centerCrop"-->
 
             <TextView
                 android:id="@+id/txttitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Book Title"
+                android:text="Weapon  Title"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtCat"
-                android:layout_width="wrap_content"
+                android:layout_width="96dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="#edecec"
-                android:padding="8dp"
-                android:text="Details" />
+                android:background="#AEA0B4"
+                android:textSize="20dip"
+                android:padding="5dp"
+                android:text="--Details--" />
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -59,7 +60,7 @@
         </LinearLayout>
 
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
 </LinearLayout>

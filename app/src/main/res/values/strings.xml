@@ -6,23 +6,58 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="admob_interstetial_ad">ca-app-pub-6803138759314501/6828209604</string>
 
 
-    <string name="erangle">Erangel is the very first map on PUBG, and it is
-        where most PUBG players started their exciting journey in this game.
-        The countryside town atmosphere of Erangel is perfect for intense
-        gameplay, providing a balance of fiery gunfire and opportunities for stealth.</string>
+
+    <string name="erangle">Erangel is the base map for the game. An 8x8 km map dotted with small
+        outcroppings of buildings, the distance between major landmarks necessitates the use of
+        vehicles to move between areas. As the game continues, the map area will be restricted to
+        a smaller and smaller play area. A red circle will appear on the map from time to time,
+        marking an area for offshore artillery to bombard. Erangel has varying weather,
+        sometimes affecting visibility and requiring a change in tactics.
+        Cities and the local military base have plenty of decent loot.</string>
 
 
-    <string name="miramar">Miramar is a desert map in Player Unknowns’s
-        Battlegrounds (PUBG) that features urban surroundings based in
-        Mexico. Its terrain offers many opportunities for interesting
-        gameplay because it can be used more for ambushing, sniping and
-        long-range shooting. But with Miramar’s long stretches of desert
-        and densely populated cities, the tactics typically used in Erangel
-        , Vikendi and Sanhok may not work and new strategies are required.</string>
+    <string name="miramar">Miramar offers unique terrain and dense urban areas.
+        With an island to the south east home to a prison and smaller villages,
+        the entire area is cut off from the west and north-east by enormous
+        canyons and mountains, with a looming metal wall to the north keeping
+        outsiders out, and players in. Miramar will create a new Battle Royale
+        experience where the old strategies from Erangel may no longer
+        work and new tactics are required.</string>
+
+
+
+    <string name="sanhok">Sanhok is the first map that the art team of PUBG Corp
+        visited a location specifically for world art development. By physically
+        being in the jungles and mountains in a humid Asian country, it not only
+        made them imagine what the new map will play like, but they felt the breeze,
+        smelled the air and heard the sounds. All of these experiences are helping the
+        team create a unique map experience.
+        The map is inspired by a wide variety of islands in Thailand and the Philippines,
+        the PUBG Art team; comprised of Technical Artists, Concept Artists and 3D Environment
+        Artists, they took photos (Photogrammetry) to capture the island then transfer that to
+        the game engine to design Sanhok</string>
+
+    <string name="vikendi">An isolated Northern resort island in the shadow of Mount Kreznic,
+        Vikendi was home to a wide variety of attractions, businesses and villages. Vikendi
+        is enveloped in dense/thick forest and another aspect of the island is its warm
+        Mediterranean coastline and snowy mountains in the central area of the map.
+        Tourists can look to the future from the Cosomodrome, travel back to the past
+        and walk with the giants at the prehistoric Dino Park, visit the aging Castle
+        or even take a tour of the winery. Vikendi is as beautiful as it is dangerous and
+        Survivors treading these bitter cold lands will have to watch their backs even more
+        closely, as the fresh snow is perfect for leaving behind footprints! With snow and the
+        footprints that you leave behind or other players leave behind, the hunter becomes the
+        hunted. The days are long on Vikendi, but it won’t be long before the sun sets and the
+        auroras fill the moonlit skies.
+        The map is inspired by Slovenia to create the visual design of the map </string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
 </resources>

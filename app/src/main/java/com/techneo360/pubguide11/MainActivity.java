@@ -2,14 +2,21 @@ package com.techneo360.pubguide11;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+import com.google.android.material.navigation.NavigationView;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -24,13 +31,33 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
 
+
+
     private boolean doubleBackToExitPressedOnce = true;
+    private AdView mAdView;
+    private InterstitialAd interstitial;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
+
+
+
+
+
+
+
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+       interstitial = new InterstitialAd(MainActivity.this);
 
 
 
@@ -52,7 +79,23 @@ public class MainActivity extends AppCompatActivity
                     new Weapons()).commit();
             navigationView.setCheckedItem(R.id.nav_Weapons);
         }
+
+
+
+
+
+
     }
+
+
+
+
+
+
+
+
+
+
 
     @Override
     public void onBackPressed() {
@@ -122,7 +165,23 @@ public class MainActivity extends AppCompatActivity
 
             case R.id.nav_Ammo_types:
                 fragment = new Ammo_Types();
+
+                interstitial = new InterstitialAd(getApplicationContext());
+                interstitial.setAdUnitId(getString(R.string.admob_interstetial_ad));
+                AdRequest adRequest = new AdRequest.Builder().build();
+                interstitial.loadAd(adRequest);
+                interstitial.setAdListener(new AdListener() {
+                    public void onAdLoaded() {
+                        if (interstitial.isLoaded()) {
+                            interstitial.show();
+                        }
+                    }
+                });
+
+
+
                 break;
+
 
 
             case R.id.nav_Attachments:

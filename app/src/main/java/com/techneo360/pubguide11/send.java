@@ -3,14 +3,18 @@ package com.techneo360.pubguide11;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 
 
 /**
@@ -22,6 +26,7 @@ public class send extends Fragment {
     private EditText mEditTextTo;
     private EditText mEditTextSubject;
     private EditText mEditTextMessage;
+    private AdView mAdView;
 
     public send() {
         // Required empty public constructor
@@ -31,9 +36,19 @@ public class send extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
+
+
         // Inflate the layout for this fragment
         View view = LayoutInflater.from(getActivity()).inflate(R.layout.fragment_send, container, false);
+
+
         return view;
+
+
+
     }
 
     @Override
@@ -44,7 +59,15 @@ public class send extends Fragment {
         mEditTextSubject = view.findViewById(R.id.edit_text_subject);
         mEditTextMessage = view.findViewById(R.id.edit_text_message);
         Button buttonSend = view.findViewById(R.id.button_send);
+
+
+
+
     }
+
+
+
+
 
     private void sendMail() {
         String recipientList = mEditTextTo.getText().toString();

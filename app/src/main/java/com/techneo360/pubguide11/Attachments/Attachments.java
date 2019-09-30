@@ -2,9 +2,9 @@ package com.techneo360.pubguide11.Attachments;
 
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,7 +57,7 @@ public class Attachments extends Fragment {
         lstBook.add(new Book("4x ACOG Scope","Scope","-------------------------------------------------------------------------\n\n"+"Attachable Weapons\n" +
                 "UMP9, AKM, M16A4, M416, SCAR-L, SKS, S12K, M249, Kar98k, M24, AWM, KRISS Vector, Groza, SKS, Mk14 EBR\u200E, Mini 14, DP-28, AUG A3, SLR, Crossbow, QBZ95, QBU, Beryl M762, Mk47, G36C, MP5K"+"\n\n-------------------------------------------------------------------------\n\n"+"The ACOG scope allows for the user to engage targets at medium to long ranges. With a built in rangefinder, and its 4x zoom, the ACOG scope is one of the most useful attachments a player can come across, as such it is highly recommended to take it, even if you do not have a weapon that can accept it.\n" +
                 "\n" +
-                "As of the Miramar update, the 4x, along with Red Dot Sight and Holographic Sight, no longer have adjustable zeroing distance, setting the gun to a fixed 100 meter zero.\n" +
+                "As of the miramar_map update, the 4x, along with Red Dot Sight and Holographic Sight, no longer have adjustable zeroing distance, setting the gun to a fixed 100 meter zero.\n" +
                 "\n" +
                 "It should be noted that while the name of this attachment would imply 4x magnification, because it magnifies the field of view down to 19° instead of 20°, this means that with the minimum field of view setting of 80°, the magnification power of this optic is actually closer to 4.21x",R.drawable.fourx));
         lstBook.add(new Book("6x Scope","Scope","-------------------------------------------------------------------------\n\n"+"Attachable Weapons\n" +

@@ -2,13 +2,16 @@ package com.techneo360.pubguide11.Weapons;
 
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 import com.techneo360.pubguide11.Book;
 import com.techneo360.pubguide11.R;
 import com.techneo360.pubguide11.RecyclerViewAdapter;
@@ -22,6 +25,7 @@ import java.util.List;
  */
 public class Weapons extends Fragment {
     List<Book> lstBook ;
+    private AdView mAdView;
 
 
     public Weapons() {
@@ -32,9 +36,18 @@ public class Weapons extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
+
+
+
+
         // Inflate the layout for this fragment
         // Inflate the layout for this fragment
         View v =  inflater.inflate(R.layout.fragment_weapons, container, false);
+
+
 
 
 

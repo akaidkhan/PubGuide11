@@ -8,7 +8,7 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
@@ -20,9 +20,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
+
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         android:src="@drawable/erangel"
        />
 
@@ -50,7 +52,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="300dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/miramar"
            />
@@ -79,8 +81,81 @@
 
 
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sanhok"
+            />
+
+        <TextView
+            android:id="@+id/txttitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="Map : Sanhok"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/txtDesc3"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sanhok"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/vikendi"
+            />
+
+        <TextView
+            android:id="@+id/txttitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="Map : Vikendi"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/txtDesc4"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vikendi"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6803138759314501/8869077252">
+        </com.google.android.gms.ads.AdView>
+
+
+
+
     </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </FrameLayout>

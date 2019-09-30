@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/cardview_id"
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
@@ -23,8 +23,9 @@
             android:id="@+id/book_img_id"
             android:layout_width="match_parent"
             android:layout_height="160dp"
-            android:background="#E2BEBE"
-            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:background="#E2BEBE"/>
+<!--            android:scaleType="centerCrop"-->
             />
 
         <TextView
@@ -42,4 +43,4 @@
     </LinearLayout>
 
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
