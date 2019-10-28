@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.techneo360.pubguide11.Book;
 import com.techneo360.pubguide11.R;
 import com.techneo360.pubguide11.RecyclerViewAdapter;
@@ -23,6 +25,7 @@ import java.util.List;
 public class Health_Items extends Fragment {
 
     List<Book> lstBook ;
+    private AdView mAdView;
 
 
     public Health_Items() {
@@ -162,6 +165,17 @@ public class Health_Items extends Fragment {
 
 
         return v;
+    }
+
+    @Override
+    public void onActivityCreated(Bundle bundle) {
+        super.onActivityCreated(bundle);
+        AdView mAdView = (AdView) getView().findViewById(R.id.adView);
+        AdView nAdView = (AdView) getView().findViewById(R.id.adViewz);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
+
     }
 
 }

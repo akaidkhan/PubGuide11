@@ -20,7 +20,7 @@
         <item
             android:id="@+id/Throwables"
             android:icon="@drawable/ic_granade"
-            android:title="Throables" />
+            android:title="Throwables" />
         <item
             android:id="@+id/Health_Items"
             android:icon="@drawable/ic_heart"

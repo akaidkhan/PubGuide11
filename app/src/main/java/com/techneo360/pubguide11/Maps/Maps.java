@@ -23,7 +23,7 @@ import java.util.concurrent.ScheduledExecutorService;
  */
 public class Maps extends Fragment {
 
-    private AdView mAdView;
+    private AdView mAdView,nAdView;
 
 
 
@@ -54,6 +54,7 @@ public class Maps extends Fragment {
     public void onActivityCreated(Bundle bundle) {
         super.onActivityCreated(bundle);
         AdView mAdView = (AdView) getView().findViewById(R.id.adView);
+        AdView nAdView = (AdView) getView().findViewById(R.id.adViewz);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
@@ -64,11 +65,8 @@ public class Maps extends Fragment {
 
 
     }
+}
 
-
-
-
-    }
 
 
 

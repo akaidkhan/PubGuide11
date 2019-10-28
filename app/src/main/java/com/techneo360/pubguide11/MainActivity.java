@@ -186,19 +186,52 @@ public class MainActivity extends AppCompatActivity
 
             case R.id.nav_Attachments:
                 fragment = new Attachments();
+                interstitial = new InterstitialAd(getApplicationContext());
+                interstitial.setAdUnitId(getString(R.string.admob_interstetial_ad));
+                AdRequest adRequest1 = new AdRequest.Builder().build();
+                interstitial.loadAd(adRequest1);
+                interstitial.setAdListener(new AdListener() {
+                    public void onAdLoaded() {
+                        if (interstitial.isLoaded()) {
+                            interstitial.show();
+                        }
+                    }
+                });
+
                 break;
 
             case R.id.Throwables:
                 fragment = new Throwables();
+
+
+
+
                 break;
 
             case R.id.Health_Items:
                 fragment = new Health_Items();
+
+//                interstitial.setAdUnitId(getString(R.string.admob_interstetial_ad));
+//                AdRequest adRequest3 = new AdRequest.Builder().build();
+//                interstitial.loadAd(adRequest3);
+//                interstitial.setAdListener(new AdListener() {
+//                    public void onAdLoaded() {
+//                        if (interstitial.isLoaded()) {
+//                            interstitial.show();
+//                        }
+//                    }
+//                });
+
                 break;
 
 
             case R.id.Maps:
                 fragment = new Maps();
+
+
+
+
+
                 break;
 
             case R.id.nav_share:

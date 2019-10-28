@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.techneo360.pubguide11.Book;
 import com.techneo360.pubguide11.R;
 import com.techneo360.pubguide11.RecyclerViewAdapter;
@@ -23,6 +25,7 @@ import java.util.List;
 public class Ammo_Types extends Fragment {
 
     List<Book> lstBook ;
+    private AdView mAdView,nAdView;
 
 
     public Ammo_Types() {
@@ -126,5 +129,10 @@ public class Ammo_Types extends Fragment {
 
         return v;
     }
+
+
+
+
+
 
 }
